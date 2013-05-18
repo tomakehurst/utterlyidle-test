@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.6
+version = '1.0'
+
+repositories {
+	    mavenCentral()
+		        mavenRepo urls: "http://repo.bodar.com/"
+}
+
+dependencies {
+	    compile group: 'com.googlecode.utterlyidle', name: 'utterlyidle', version: '633'
+}
