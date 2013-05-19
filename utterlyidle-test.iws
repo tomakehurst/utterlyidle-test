@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a93d34b-5ee4-484f-98ec-898217f265b5" name="Default" comment="" />
+    <list default="true" id="5a93d34b-5ee4-484f-98ec-898217f265b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/idletest/SimpleApplication.java" afterPath="$PROJECT_DIR$/src/idletest/SimpleApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/runtime.dependencies" afterPath="$PROJECT_DIR$/build/runtime.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utterlyidle-test.iml" afterPath="$PROJECT_DIR$/utterlyidle-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utterlyidle-test.ipr" afterPath="$PROJECT_DIR$/utterlyidle-test.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utterlyidle-test.iws" afterPath="$PROJECT_DIR$/utterlyidle-test.iws" />
+    </list>
     <ignored path="utterlyidle-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/jcompilo.sh" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368901528358" ignored="false" />
-    <file path="/SimpleApplication.java" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368908799417" ignored="false" />
+    <file path="/SimpleApplication.java" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368954705947" ignored="false" />
     <file path="/runtime.dependencies" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368904909361" ignored="false" />
     <file path="/SimpleResource.java" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368906622685" ignored="false" />
     <file path="/a.dummy" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368907472997" ignored="false" />
     <file path="/something.js" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368907096730" ignored="false" />
+    <file path="/SimpleModule.java" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368954593786" ignored="false" />
+    <file path="/Dummy.txt" changelist="5a93d34b-5ee4-484f-98ec-898217f265b5" time="1368954772859" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,101 +140,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleApplication.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleApplication.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/idletest/SimpleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+            <state line="2" column="50" selection-start="69" selection-end="69" vertical-scroll-proportion="0.049099836">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.dependencies" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/runtime.dependencies">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="41" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticBindingBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/StaticBindingBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="26" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/jetty/RestServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="13" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/ApplicationBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="22" selection-start="3079" selection-end="3079" vertical-scroll-proportion="-13.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DslBindings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/DslBindings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="28" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleModule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/idletest/SimpleModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="31" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentLengthHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/ContentLengthHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleResource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/idletest/SimpleResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="0.30782312">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/ExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePathHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/BasePathHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/DateHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/BaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="51" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2242#2443#0" expanded="true" />
-                <element signature="e#2432#2433#0" expanded="true" />
-                <element signature="e#3873#4085#0" expanded="true" />
-                <element signature="e#4074#4075#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticResources.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/StaticResources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Binding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Binding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="28" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Accept.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Accept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="25" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,13 +221,22 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/jcompilo.sh" />
-        <option value="$PROJECT_DIR$/build/runtime.dependencies" />
         <option value="$PROJECT_DIR$/src/idletest/SimpleResource.java" />
         <option value="$PROJECT_DIR$/src/assets/something.js" />
+        <option value="$PROJECT_DIR$/src/idletest/SimpleModule.java" />
+        <option value="$PROJECT_DIR$/build/runtime.dependencies" />
         <option value="$PROJECT_DIR$/src/idletest/SimpleApplication.java" />
       </list>
     </option>
@@ -310,7 +302,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -355,69 +347,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totallylazy-1079.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totallylazy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googlecode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utterlyidle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,6 +401,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utterlyidle-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -479,11 +455,12 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/utterlyidle-test.ipr" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -634,7 +611,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1073" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -651,10 +628,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67051417" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67051417" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67051417" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67051417" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67051417" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -728,72 +705,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="268" selection-end="268" vertical-scroll-proportion="0.09819967">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.yadic/yadic/160/source/1adf5960f950fae7f0c13b62b834f7936a66931e/yadic-160-sources.jar!/com/googlecode/yadic/DelegatingContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.yadic/yadic/160/source/1adf5960f950fae7f0c13b62b834f7936a66931e/yadic-160-sources.jar!/com/googlecode/yadic/SimpleContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/RestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="6170" selection-end="6170" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6058#6327#0" expanded="true" />
-            <element signature="e#6316#6317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/AuditHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/HeadRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/ContentLengthHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/handlers/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/BasePathHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Accept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="25" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.0">
@@ -808,9 +719,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/modules/RequestScopedModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="0.10204082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/idletest/SimpleResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/StaticResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.22959183">
           <folding />
         </state>
       </provider>
@@ -834,21 +761,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/idletest/SimpleApplication.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/annotations/AnnotatedBindings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="37" column="28" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.13043478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/jetty/RestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/StaticBindingBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="26" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/dsl/DslBindings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/idletest/SimpleModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/idletest/SimpleResource.java">
+    <entry file="file://$PROJECT_DIR$/build/runtime.dependencies">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="0.30782312">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="41" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.googlecode.utterlyidle/utterlyidle/633/source/41c4ed16aacd78cddc9f879b6076948eb5a928bd/utterlyidle-633-sources.jar!/com/googlecode/utterlyidle/ApplicationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="22" selection-start="3079" selection-end="3079" vertical-scroll-proportion="-13.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/idletest/SimpleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="50" selection-start="69" selection-end="69" vertical-scroll-proportion="0.049099836">
+          <folding />
         </state>
       </provider>
     </entry>

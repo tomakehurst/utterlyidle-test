@@ -4,3 +4,4 @@ mvn:junit:junit:jar|sources:4.11
 
 mvn://repo.bodar.com/com.googlecode.totallylazy:totallylazy:jar:1086
 mvn://repo.bodar.com/com.googlecode.utterlyidle:utterlyidle:jar:633
+mvn:org.simpleframework:simple:jar:4.1.21

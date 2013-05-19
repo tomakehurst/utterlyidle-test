@@ -96,6 +96,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="simple-4.1.21" level="project" />
   </component>
 </module>
 

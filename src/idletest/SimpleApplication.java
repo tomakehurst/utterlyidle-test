@@ -1,17 +1,15 @@
 package idletest;
 
-import java.net.URL;
+import com.googlecode.utterlyidle.simpleframework.RestServer;
 
 import static com.googlecode.utterlyidle.ApplicationBuilder.application;
+import static com.googlecode.utterlyidle.ServerConfiguration.defaultConfiguration;
 
 public class SimpleApplication {
 
     public static void main(String... args) throws Exception {
-        URL assetsUrl = Thread.currentThread().getContextClassLoader().getResource("assets/");
-        System.out.println(assetsUrl);
         application()
-                .addContent(assetsUrl, "/assets")
-                .addAnnotated(SimpleResource.class)
-                .start(8088);
+                .add(new SimpleModule())
+                .start(defaultConfiguration().port(8088).serverClass(RestServer.class));
     }
 }
